@@ -1,5 +1,5 @@
 // --- COLE A URL DO SEU APP DA WEB AQUI ---
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyASZknd0IKWkujk5tqIkQkNbc874ScNIQDfU4aiP28kesKfWh1fdCPGIkTPbxV-qiKWg/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby3v_KgI-qId-BKasPNN1EFXx383HR6H6tGvGtYv5JUVImOMfaS4hrh8hf-M5COggQKmg/exec";
 
 // --- DADOS DO QUIZ ---
 const quizData = [
@@ -253,4 +253,5 @@ async function enviarDados(e) {
 // Inicia o quiz quando a página carregar
 window.addEventListener('load', () => {
     carregarPergunta(indicePerguntaAtual);
+
 });
